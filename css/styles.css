@@ -1,0 +1,178 @@
+/*author :Mekha R*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.div-container{
+   background-color: #333;
+   position: relative;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+   height: 50vh;	
+}
+.div-container h1{
+  font-size: 50px;
+  color: #fff;
+	}
+.div-container p{
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+}	
+.div-container a{
+	border:2px solid #00f;
+	width: 120px;
+	height: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+   }
+a:hover{
+	background-color:#00f;
+}
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: : center;
+	height: 50vh;
+}
+.container h2{
+	text-align: center;
+	font-size: 45px;
+} 
+.container p{
+	text-align: center;
+	font-size: 25px;
+}
+.img-container{
+	background-color: #333;
+	display: flex;
+	align-items: center;
+	height: 60vh;
+	justify-content: space-evenly;
+}
+.img-container h3{
+  text-align: center;
+}
+
+.col{
+	background-color: #fff;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 5px;
+
+}
+.col h3{
+	font-size: 25px;
+}
+.col div img{
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   padding: 25px;
+   border-radius: 5px;
+}
+.col p{
+	text-align: center;
+}
+.footer{
+	display: flex;
+	height: 50vh;
+}
+.footer div{
+    width: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.clr{
+	background-color:#0d6efd;
+}
+.clr1{
+	background-color: #333;
+	color: #fff;
+}
+.footer h3{
+	font-size: 35px;
+}
+.footer p{
+	font-size: 25px;
+}
+@media only screen and (max-width: 576px){
+	.div-container
+	{
+		width: 100%;
+		height: 80vh;
+		padding: 10px;
+	}
+   .div-container h1{
+   	font-size: 35px;
+    text-align: center;
+   }
+   .div-container p{
+   	font-size: 20px;
+   }
+   .container{
+   	height: 60vh;
+   	width: 100%;
+
+   }
+   .container p{
+   	font-size: 20px;
+   }
+   .container h2{
+   	font-size: 35px;
+   }
+   .img-container{
+   	height: 170vh;
+   	display: flex;
+   	flex-direction: column;
+   	padding: 10px;
+   }
+   .col{
+   	width: 90%;
+   	height: 100vh;
+   	padding: 20px;
+   	height: 50vh;
+   }
+   .col div img{
+   	border-radius: 10px;
+   	height: 30vh;
+   }
+   .footer{
+   	height: 100vh;
+   display: block;
+   }
+   .footer div{
+   	width: 100%;
+   }
+   .clr{
+   	height: 50vh;
+    width: 100%;
+    padding: 10px;
+   }
+   .clr p{
+   	font-size: 22px;
+   }
+   .clr1{
+   	height: 50vh;
+    width: 100%;
+    padding: 10px;
+   }
+   .clr1 p{
+   	font-size: 22px;
+   }
+
+}
